@@ -108,5 +108,8 @@ html{
     color: white;
 }
 
-
+.footer-container figure{
+    display: inline-block;
+    width: 50px;
+}
 
