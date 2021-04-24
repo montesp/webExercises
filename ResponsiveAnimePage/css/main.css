@@ -80,20 +80,23 @@ body{
  */
 
 .main-container{
-    background-color: var(--main-color);
-}
-
-.main-container .title-content{
     display: flex;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-    font-family: var(--font-family);
+    flex-wrap: wrap;
+    background-color: var(--main-color);
 }
 
 .main-imagesection-container{
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-imagesection-container .title-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--font-family);
 }
 
 .imagesection-image-container{

@@ -1,0 +1,39 @@
+.main-imagesection-container{
+    background-color: var(--menu-color);
+    width: 30%;
+}
+
+.main-imagesection-container .title-content{
+    color: white;
+}
+
+.imagesection-image-container{
+    width: 80%;
+    margin: 1rem 10%;
+    height: 150px;
+}
+
+
+.main-text-container{
+    width: 50%;
+    margin: 2rem 10% 0;
+
+}
+
+.main-text-container p{
+    font-size: 2.4rem;
+}
+
+.redsocial-icons-container{
+    display: flex;
+    width: 60%;
+}
+
+
+.text-footer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 40%;
+}
+
