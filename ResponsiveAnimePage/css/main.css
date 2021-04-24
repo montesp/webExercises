@@ -1,3 +1,11 @@
+:root{
+    --header-footer-color:#0061a8;
+    --menu-color:#2978b5;
+    --main-img-content:#8ab6d6;
+    --main-color:#f0e3ca;
+    --font-family:'Roboto', sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,5 +18,128 @@ html{
 
 body{
     font-size: 1.6rem;
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--header-footer-color);
+}
+
+
+
+.header-container .header-title{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header-container .menu-container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--menu-color);
+    width: 100%;
+}
+
+.menu-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+.menu-container ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-basis: 100%;
+}
+
+.menu-container ul li a{
+    color: white;
+    font-size: 2.4rem;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+.menu-container ul li a:hover{
+    color: var(--main-img-content);
+}
+
+.menu-container ul li a:active{
+    color: var(--header-footer-color);
+}
+
+/* .menu-container ul li a:visited{
+    color: var(--header-footer-color);
+}
+ */
+
+.main-container{
+    background-color: var(--main-color);
+}
+
+.main-container .title-content{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.main-imagesection-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagesection-image-container{
+    width: 65%;
+    margin: 1rem 18.5%;
+    height: 150px;
+}
+
+.imagesection-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2.4rem;
+}
+
+.main-text-container{
+    width: 80%;
+    margin: 2rem 10% 0;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--header-footer-color);
+}
+
+.redsocial-icons-container{
+    display: flex;
+    width: 100%;
+}
+
+.icon-footer-container{
+    width: 60%;
+    height: 100px;
+    padding: 15px;
+}
+
+.icon-footer-container img{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.text-footer{
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 

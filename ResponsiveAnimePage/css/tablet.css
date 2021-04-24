@@ -1,0 +1,18 @@
+.header-container .header-title{
+    width: 50%;
+}
+
+.header-container .menu-container{
+    background-color: var(--header-footer-color);
+    width: 50%;
+}
+
+.menu-container ul li{
+    flex-basis: auto;
+    padding: 0 1rem;
+}
+
+.imagesection-image-container{
+    width: 40%;
+    margin: 1rem 5%;
+}
