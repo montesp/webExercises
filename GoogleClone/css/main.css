@@ -69,3 +69,29 @@ body{
     width: 100%;
     height: 100%;
 }
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.companylogo-container{
+    width: 35rem;
+    height: 20rem;
+}
+
+.companylogo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.button-search{
+    width: 40%;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 3.2rem;
+    border-radius: 20px;
+}
+
