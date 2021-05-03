@@ -11,3 +11,50 @@ html {
 body{
     font-size: 1.6rem;
 }
+
+main .main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1%;
+    border-bottom: 1px solid #c8ccd1;
+}
+
+main .main-info .center-section{
+    margin: 0 auto;
+}
+
+main .main-info .title-img{
+    margin: 40px auto 50px;
+    text-align: center;
+}
+
+main .main-info .lenguages-container{
+    display: flex;
+    padding: 40px 0;
+}
+
+main .main-info .lenguages-container .updown{
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-info .lenguages-container .lenguajes{
+    margin: 10px 0;
+}
+
+main .main-info .lenguages-container .lenguajes h5{
+    
+}
+
+main .main-info .lenguages-container img{
+    height: 70%;
+    margin: 7.5% 5%;
+}
+
+
+
+
+
+
+
