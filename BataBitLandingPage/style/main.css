@@ -105,7 +105,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* height: 500px; */
+    min-width: 320px;
+    height: auto;
     /* background-color: var(--off-white); */
 }
 
@@ -115,15 +116,60 @@ main{
     flex-direction: column;
     text-align: center;
     width:100%;
-    background-color: var(--just-white);
+    background-color: var(--off-white);
 }
 
-.main-tasas_imagen{
+.main-tasas_container .main-tasas_imagen{
     width: 200px;
     height: 175px;
     align-self: center;
     margin-top: 60px;
 }
+
+.main-tasas_container .main-content_tasas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;  
+}
+
+.main-content_tasas h2{
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: var(--warm-black);
+}
+
+.main-content_tasas p{
+    margin-top: 20px;
+    line-height: 2.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+.main-content_tasas h4{
+    width: 50%;
+    margin-top: 30px;
+    align-self: center;
+    text-align: start;
+    color: var(--bitcoin-orange);
+}
+
+.main-content_tasas .tasas-table{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.tasas-table table
+{ 
+    background-color: var(--just-white);
+    border: .2px solid var(--grey);
+}
+.tasas-table i{
+    height: auto;
+}
+
 
 
 
